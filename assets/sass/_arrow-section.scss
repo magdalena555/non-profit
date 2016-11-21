@@ -1,0 +1,250 @@
+
+
+.arrow-section{
+    background-color: $greyBgLight;
+    padding-top:100px;
+    padding-bottom:100px;
+    .arrow-intro{
+        background: $white;
+        width:100%;
+        padding: 7.5% 15%;
+
+        h1{
+            color: $grey-dark;
+            text-align: center;
+            margin:0;
+            font-family: 'PT Sans', arial, helvetica, sans-serif;
+            font-size:40px;
+        }
+       
+        p{
+            color: $grey-dark;
+            text-align: center;
+            margin:0;
+            max-width: 775px;
+            margin:0 auto;
+            padding-top: 25px;
+        }
+       
+    }
+
+    .arrow-item-section{
+        width:100%;
+        display: flex;
+        justify-content:center;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-top:20px;
+        background-color: $white;
+        .arrow-item{
+            background-color: $white;
+            width: 25%;
+            height: 330px;
+            padding:0 3%;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            &::after, 
+            &::before{
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 165px;
+                right: 0;
+                z-index: 10;
+                background: #eef1f2; 
+            }
+            &::after{
+                transform: skew(10deg);
+                top:0 
+            }
+
+            &::before{
+                bottom: 0;
+                transform: skew(-10deg); 
+            }
+
+            &:last-of-type::before, 
+            &:last-of-type::after{
+                left:-15px;
+                background: $green;
+                z-index: 1;
+                width: 30px;
+            } 
+            .svg{
+                max-height: 80px;
+                max-width: 130px;
+            }
+
+             img{
+                margin:0 auto;
+                display: block;
+            }
+            h2{
+                color: #6C6F70;
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: 0.8px;
+                line-height: 20px;
+                text-align: center;
+            }
+            p{
+                color:  #6C6F70;
+                text-align: center;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 1.45;
+                letter-spacing: 0.015em;
+            }
+
+        }
+        .green{
+            background:  $green;
+            h2{
+                color:$white;   
+            }
+        }
+    }
+}
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+    
+
+}
+@media all and (max-width: 1025px) { 
+    .arrow-section .arrow-intro h1 {
+        font-size: 24px;
+    }
+    .arrow-section .arrow-intro {
+        padding: 25px;
+    }
+    .arrow-section {
+        padding: 25px;
+    }
+    
+}
+@media all and (max-width: 960px) {
+    .arrow-section {
+        padding: 25px 130px;
+    }
+
+
+    .arrow-section {
+    .arrow-item-section{
+            flex-direction: column;
+            // background: #eef1f2; 
+            text-align: center;
+            .arrow-item{
+                    width: 100%;
+                    height: auto;
+                    margin-top:30px;
+                    padding: 50px 3% 8%;
+                &:first-of-type{
+                    padding-top:5%;
+                }
+                &::before,
+                &::after{
+                    height: 20px;
+                    z-index: 10;
+                    background: #eef1f2; 
+                    width: 50%;
+                    top:100%;
+                    bottom:0;
+                }
+
+                &::before{
+                    right: 0;
+                    transform: skewY(-10deg);
+                }
+                &::after{
+                    left:0;
+                    transform: skewY(10deg)
+                }
+                &:last-of-type::before, 
+                &:last-of-type::after{
+                    left:0;
+                    top:-16px;
+                    // border-bottom: 30px solid green;
+                    width: 40%;
+                    height: 40px;
+                } 
+
+                &:last-of-type::before{
+                    right:0;
+                    left:60%;
+                }
+               
+            }
+        }
+    }
+    .arrow-section .arrow-item-section .arrow-item:last-of-type::after, .arrow-section .arrow-item-section .arrow-item:last-of-type::before {
+       top: -18px;
+       height: 50px;
+       top: -28px;
+       height: 63px;
+    }
+    .arrow-section {
+        padding: 25px;
+    }
+    .arrow-section .arrow-item-section .arrow-item {
+        margin-top: 40px;
+    }
+}
+
+@media all and (max-width: 780px) {
+    .arrow-section .arrow-item-section .arrow-item {
+        width: 100%;
+        height: auto;
+        padding: 50px 3% 8%;
+        margin-top: 33px;
+    }
+}
+
+@media all and (max-width: 750px) {
+ 
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+    .arrow-section .arrow-item-section .arrow-item::after, .arrow-section .arrow-item-section .arrow-item::before{
+        top: 102%;
+    }
+
+    .arrow-section .arrow-item-section .arrow-item:last-of-type::after, .arrow-section .arrow-item-section .arrow-item:last-of-type::before{
+        width: 35%;
+    }
+    .arrow-section .arrow-item-section .arrow-item:last-of-type::before{
+        left: 65%;
+    }
+  
+}
+@media all and (max-width: 600px) {
+    .arrow-section {
+          padding: 25px;
+      }
+}
+@media all and (max-width: 500px) {
+    .arrow-section .arrow-item-section .arrow-item {
+        margin-top: 35px;
+    }
+}
+@media all and (max-width: 480px) {
+.arrow-section .arrow-item-section .arrow-item::after, .arrow-section .arrow-item-section .arrow-item::before{
+        top:103%;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}
+
+
+
+

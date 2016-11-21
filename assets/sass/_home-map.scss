@@ -1,0 +1,107 @@
+.map-change{
+	background-color: $greyBgLight;
+	width:100%;
+}
+.map-container-change{
+	width:100%;
+	background: $white;
+	position:relative;
+	.map-background-change{
+		position:relative;
+		background:$white;
+		bottom: -40px;
+		z-index: 0;
+	}
+	.map-image-change{
+		background-size:contain;
+		background-repeat: no-repeat;
+		background-position: center center; 
+		background-image: url("../images/home-map.png");
+		padding: 15% 0;
+		max-width: 750px;
+		margin:0 auto;
+	}
+	.map-content-change{
+		p{
+			color: $grey-dark;
+			text-align: center;
+		    font-weight: normal;
+		    font-size: 16px;
+		    line-height: 1.45;
+		    letter-spacing: 0.015em;
+		    margin:0;
+		    max-width: 775px;
+		    margin:0 auto;
+		    padding-top: 25px;
+		}
+		h1{
+			color: $grey-dark;
+			text-align: center;
+			margin:0;
+		}
+		hr{
+	        display: block;
+	        margin: 0 auto;
+	        border: 1px solid #c5c7c7;
+	        width: 70px;
+	    }
+	}
+}
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	
+
+}
+@media all and (max-width: 1024px) { 
+	.map-change {
+	    padding: 0;
+
+	}
+	.map-container-change {
+	    padding: 25px 0 0 0;
+	}
+	.map-container-change .map-content-change p {
+	    max-width: initial;
+	}
+	.map-container-change .map-image-change {
+	    padding: 50px 25px;
+	}
+	.map-container-change .map-background-change {
+	    bottom: 0;
+	    padding:5%;
+	}
+}
+@media all and (max-width: 940px) { 
+	
+
+
+}
+
+@media all and (max-width: 768px) {
+
+
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+
+
+}
+
+@media all and (max-width: 480px) {
+
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

@@ -1,0 +1,99 @@
+.home-highered-change{
+		background-size:cover;
+		background-repeat: no-repeat;
+		height: 520px;
+		width:100%;
+		background-position: center center; 
+		background-image: url("../images/home-partners.jpg");
+		position:relative;
+		background-attachment: fixed;
+		background-position: -25px 0 !important;
+		
+	.highered-filter-change{
+		position:absolute;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+		z-index: 2;
+		background-color:  rgba(21, 49, 73, 0.65);
+	}
+	.highered-content-change{
+		z-index: 4;
+		position: relative;
+		max-width: 750px;
+		margin:0 auto;
+		top: 50%;
+		transform: translateY(-50%);
+		h1{
+			color: $white;
+			text-align: center;
+			margin:0;
+		}
+		p{
+			color:$white;
+			text-align: center;
+		    font-weight: normal;
+		    font-size: 16px;
+		    line-height: 1.45;
+		    letter-spacing: 0.015em;
+			padding-top: 25px;
+		}
+		
+	}
+	.button {
+	    background-color: transparent;
+	    color:$white;
+	    border: 1px solid;
+	}
+}
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	
+
+}
+@media all and (max-width: 1024px) { 
+
+	
+
+	
+}
+@media all and (max-width: 940px) { 
+	
+
+
+}
+
+@media all and (max-width: 768px) {
+	.home-highered-change {
+	    background-size: cover;
+	    height: 410px;
+	    width: 100%;
+	    background-image: url(../images/home-partners.jpg);
+	    position: relative;
+	}
+
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

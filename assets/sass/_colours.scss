@@ -1,0 +1,138 @@
+
+/*--------------------------------------------------------------------------------------
+*
+*    COLOUR VARS
+*
+*-------------------------------------------------------------------------------------*/
+
+$black: #2F3235;
+$white: #FFFFFF;
+$offwhite: #bec5cd;
+
+$lavender: #e3e5e6;
+
+$blue: #0065a4;
+$blue-light: #00ADEE;
+$blue-lighter: #80ceed;
+$blue-lighter2: #80b2d2;
+$blue-lightest: #BFE7F6;
+$blue-dark: darken($blue-light, 12%);
+$blue-darker: #00315b;
+$green: #78A12E;
+$yellow: #FFD456;
+$yellow-dark: #e7c04e;
+$yellow-darker: darken($yellow, 18%);
+$grey: #C5C7C7;
+$grey-dark: #6C6F70;
+
+$greyBgLight: #e3e5e6;
+
+// #7e8082 used on some borders below titles
+
+
+
+//$blue-darker: #153149;
+
+
+/*--------------------------------------------------------------------------------------
+*
+*    BACKGROUND COLOURS
+*
+*-------------------------------------------------------------------------------------*/
+
+[class*="bg-dark"]
+{
+  background-color: $black;
+  color: $white;
+  h1,h2,h3,h4,h5,a,p,ul,li,td
+  {
+    color: $white;
+  }
+}
+
+[class*="bg-light"]
+{
+  background-color: $white;
+  color: $grey-dark;
+  h1,h2,h3,h4,h5,a,p,ul,li,td
+  {
+    color: $grey-dark;
+  }
+}
+
+[class*="blue-bg"]
+{
+  background-color: $blue;
+}
+
+[class*="blue-light-bg"]
+{
+  background-color: $blue-light;
+}
+
+[class*="blue-lighter-bg"]
+{
+  background-color: $blue-lighter;
+}
+
+[class*="blue-lighter2-bg"]
+{
+  background-color: $blue-lighter2;
+}
+
+
+[class*="blue-lightest-bg"]
+{
+  background-color: $blue-lightest;
+}
+
+[class*="blue-dark-bg"]
+{
+  background-color: $blue-dark;
+}
+
+[class*="blue-darker-bg"]
+{
+  background-color: $blue-darker;
+}
+
+[class*="lavender-bg"]
+{
+  background-color: $lavender;
+}
+
+[class*="green-bg"]
+{
+  background-color: $green;
+}
+
+[class*="yellow-bg"]
+{
+  background-color: $yellow;
+}
+
+[class*="yellow-dark-bg"]
+{
+  background-color: $yellow-dark;
+}
+
+[class*="grey-bg"]
+{
+  background-color: $grey;
+}
+
+[class*="grey-dark-bg"]
+{
+  background-color: $grey-dark;
+}
+
+/*-------------------------------------------------------------------------------------
+*
+*  Text Colours
+*
+*-------------------------------------------------------------------------------------*/
+
+.white-text
+{
+  color: $white;
+}

@@ -1,0 +1,146 @@
+
+// body font
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+// body-wrapper
+.body-wrapper{
+    max-width:1180px;
+    margin:0 auto;
+}
+// button
+
+.button-container{
+    margin:0 auto;
+    display: block;
+    width:260px;
+    margin-top: 40px;
+}
+.button{
+    display: inline-block;
+    text-align: center;
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.15s linear 500ms ease-in-out;
+    transition-property: all !important;
+    background-color: $blue-light;
+    color:$white;
+    text-decoration: none;
+    width:260px;
+    transition: background-color 1s ease;
+}
+
+a.button:hover, a.button.hover, a.button:active, .news-title-button,    .news-title-button{
+    background-color:$blue-dark;
+}
+// line below centered text
+ .line-below-centered::after {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #C5C7C7;
+    position: relative;
+    left: 50%;
+    margin-left: -36px;
+    top: 100%;
+}
+// font info
+
+a{
+    font-family: 'PT Sans', arial, helvetica, sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+h3 {
+    font-size: 22px;
+
+}
+
+h4 {
+    font-size: 20px;
+
+}
+
+h5 {
+    font-size: 18px;
+
+}
+
+h6 {
+    font-size: 16px;
+}
+p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.45;
+    letter-spacing: 0.015em;
+}
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+    
+
+}
+@media all and (max-width: 1024px) { 
+
+    
+
+    
+}
+@media all and (max-width: 940px) { 
+    
+
+
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

@@ -1,0 +1,467 @@
+
+
+.big-idea{
+    position:relative;
+    top:-40px;
+    margin-bottom:60px;
+}
+
+.strategy-body{
+    background-color: $greyBgLight;
+    padding: 0 100px 100px 100px;
+    // Text Block
+    .text-block-container-one{
+        background: $white;
+        width: 100%;
+        padding: 7.5% 0;
+        margin-bottom:20px;
+
+        h1{
+            color: $grey-dark;
+            text-align: center;
+            margin:0;
+            font-family: 'PT Sans', arial, helvetica, sans-serif;
+            font-size:40px;
+        }
+       
+        p{
+            color: $grey-dark;
+            text-align: left;
+            margin:0;
+            max-width: 775px;
+            margin:0 auto;
+            padding-top: 25px;
+        }
+    }
+    .text-block-container-two{
+        background: $white;
+        width: 100%;
+        padding: 75px 0 0;
+        margin-bottom: 60px;
+
+        h1{
+            color:$grey-dark;
+            text-align: center;
+            margin:0;
+            font-family: 'PT Sans', arial, helvetica, sans-serif;
+            font-size:40px;
+        }
+       
+        p{
+            color: $grey-dark;
+            text-align: left;
+            margin:0;
+            max-width: 775px;
+            margin:0 auto;
+            padding-top: 25px;
+        }
+    }
+    .text-block-container{
+        background:$white;
+        width: 100%;
+        padding: 7.5% 0;
+        margin-bottom: 20px;
+
+        h1{
+            color: $grey-dark;
+            text-align: center;
+            margin:0;
+            font-family: 'PT Sans', arial, helvetica, sans-serif;
+            font-size:40px;
+        }
+       
+        p{
+            color:  $grey-dark;
+            text-align: left;
+            margin:0;
+            max-width: 775px;
+            margin:0 auto;
+            padding-top: 25px;
+        }
+    }
+}
+
+.strategy-body .arrow-section {
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+.counting{
+    width:100%;
+    background: $white;
+    padding: 75px 5%;
+    .counting-wrapper{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        max-width:875px;
+        margin:0 auto;
+        .circle-wrapper{
+            width:33%;
+            position:relative;
+            padding: 10px;
+            h2{
+                color:  #2e3235;
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: 0.8px;
+                line-height: 25px;
+                text-align: left;
+                position:absolute;
+                left: 29%;
+                top:16%;
+                padding-left:5px;
+                padding-top: 32px;
+            }
+            .circle{
+                border-radius: 50%;
+                background-color: $green;
+                width: 100px;
+                height: 100px;
+                h3{
+                    padding-top: 25px;
+                    color:$white;
+                    font-size:40px;
+                    text-align: center;
+                }
+
+            }
+        }
+       
+
+    }
+}
+
+
+
+
+// Start of Puzzle Section
+
+.puzzle-container{
+     width:100%;
+     display: flex;
+     justify-content:center;
+     flex-direction:row;
+     flex-wrap:wrap;
+     justify-content: space-between;
+     margin-top:20px;
+     .puzzle-item{
+         background-color: $white;
+         width:25%;
+         height: 330px;
+         height: 280px;
+         padding:35px 35px;
+         border:1px solid #eef1f2;
+        position: relative;
+        &::after{
+            content:url(../images/strat-puzzle-smaller.png);
+            position: absolute;
+            z-index: 10;
+        }
+        &::after{
+            top: 50%;
+        }
+         &:first-of-type::after, &:nth-of-type(3)::after, &:nth-of-type(6)::after{
+            right:-36px;
+            transform: translateY(-50%);  
+         }
+         &:nth-of-type(2)::after, &:nth-of-type(5)::after, &:nth-of-type(7)::after{
+            transform: translateY(-50%) rotate(180deg);
+            right:-2px
+         }
+         &:nth-of-type(4)::after, &:nth-of-type(8)::after{
+            display: none;
+         }
+
+         &::before{
+            left: 50%;  
+         }
+         &:nth-of-type(2)::before, &:nth-of-type(4)::before{
+            content:url(../images/strat-puzzle-smaller.png);
+            position: absolute;
+            bottom: -39px;
+            z-index: 10;
+            transform: translateX(-50%) rotate(90deg);
+         }
+         &:first-of-type::before, &:nth-of-type(3)::before{
+            content:url(../images/strat-puzzle-smaller.png);
+            position: absolute;
+            bottom: -5px;
+            z-index: 10;
+            transform: translateX(-50%) rotate(-90deg);
+         }
+
+          img{
+             margin:0 auto;
+             display: block;
+         }
+         h2{
+
+             color: $green;
+             font-size: 20px;
+             font-weight: 700;
+             letter-spacing: 0.8px;
+             line-height: 20px;
+             text-align: center;
+             text-transform: uppercase;
+         }
+         p{
+             color: $grey-dark;
+             text-align: center;
+             font-weight: normal;
+             font-size: 16px;
+             line-height: 1.45;
+             letter-spacing: 0.015em;
+         }
+
+     }
+ }
+
+   
+
+// Responsive design
+@media all and (max-width: 1100px) { 
+    .puzzle-container .puzzle-item h2{
+        font-size: 17px;
+    }
+    .counting .counting-wrapper .circle-wrapper {
+        width: 50%;
+    }    
+    .counting .counting-wrapper {
+        justify-content: initial;
+    }
+    .counting .counting-wrapper .circle-wrapper h2 {
+        padding-left: 20px;
+    }
+    .counting .counting-wrapper .circle-wrapper h2 {
+        left: 17%;
+        padding-left: 20px;
+    }
+}
+@media all and (max-width: 1025px) { 
+    .strategy-body .text-block-container-two {
+        padding: 25px;
+    }
+    .counting {
+        padding: 0;
+    }
+    .strategy-body .text-block-container-one {  
+        padding: 25px;
+    }
+    .strategy-body .text-block-container {
+        padding: 25px;
+    }
+
+     .strategy-body .arrow-section .arrow-intro {
+         padding: 25px;
+         margin-top: 25px;
+     }
+    .impact-page {
+        padding: 25px;
+    }
+    .strategy-body {
+        padding: 0 25px;
+    }
+    .strategy-body .arrow-section{
+        padding:0;
+    }
+}
+
+@media all and (max-width: 940px) { 
+    .puzzle-container .puzzle-item{
+        width: 50%;
+        height: auto;
+    }
+
+    .puzzle-container .puzzle-item:nth-of-type(2)::after, .puzzle-container .puzzle-item:nth-of-type(6)::after{
+        display: none;
+    }
+
+     .puzzle-container .puzzle-item:nth-of-type(5)::before{
+        content: url(../images/strat-puzzle-smaller.png);
+        position: absolute;
+        bottom: -5px;
+        z-index: 10;
+        -webkit-transform: translateX(-50%) rotate(-90deg);
+        -ms-transform: translateX(-50%) rotate(-90deg);
+        transform: translateX(-50%) rotate(-90deg);
+     }
+
+    .puzzle-container .puzzle-item:nth-of-type(6)::before{
+        content: url(../images/strat-puzzle-smaller.png);
+        position: absolute;
+        bottom: -39px;
+        z-index: 10;
+        -webkit-transform: translateX(-50%) rotate(90deg);
+        -ms-transform: translateX(-50%) rotate(90deg);
+        transform: translateX(-50%) rotate(90deg);
+    }
+
+
+    .counting .counting-wrapper .circle-wrapper h2 {
+        padding-left: 33px;
+    }
+    .counting .counting-wrapper {
+        max-width: 680px;
+    }
+
+}
+
+@media all and (max-width: 815px) {
+
+}
+@media all and (max-width: 800px) {
+
+}
+@media all and (max-width: 768px) {
+    .strategy-body .text-block-container-one h1{
+        font-size:20px;
+    }
+    .strategy-body .text-block-container-two h1 {
+        font-size: 20px;
+    }
+    .strategy-body .text-block-container h1{
+        font-size:20px;
+    }
+    .counting .counting-wrapper .circle-wrapper {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 667px) {
+   
+
+    .puzzle-container .puzzle-item{
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .puzzle-container .puzzle-item:first-of-type::after, .puzzle-container .puzzle-item:nth-of-type(5)::after,  .puzzle-container .puzzle-item:nth-of-type(3)::after,  .puzzle-container .puzzle-item:nth-of-type(4)::after, .puzzle-container .puzzle-item:nth-of-type(7)::after{
+        display: none;
+    }
+
+    .puzzle-container .puzzle-item:nth-of-type(7)::before{
+        content: url(../images/strat-puzzle-smaller.png);
+        position: absolute;
+        bottom: -5px;
+        z-index: 10;
+        -webkit-transform: translateX(-50%) rotate(-90deg);
+        -ms-transform: translateX(-50%) rotate(-90deg);
+        transform: translateX(-50%) rotate(-90deg);
+    }
+    .counting .counting-wrapper .circle-wrapper h2 {
+        left: 16%;
+    }
+    .counting .counting-wrapper .circle-wrapper {
+        width: 90%;
+    }
+    .counting .counting-wrapper .circle-wrapper h2 {
+        padding-left: 23px;
+    }
+
+}
+@media all and (max-width: 600px) {
+    .strategy-body {
+        padding: 25px;
+    }
+}
+@media all and (max-width: 480px) {
+    .strategy-body {
+        padding: 0px;
+    }
+    .counting .counting-wrapper .circle-wrapper {
+        width: 100%;
+    }
+    .counting {
+        width: 100%;
+        background: #fff;
+    }
+    .strategy-body .text-block-container-two {
+        background: transparent;
+    }
+    .strategy-body .text-block-container-two p {
+        display:none;
+    }
+    .strategy-body .text-block-container-two {
+        padding: 0 25px;
+    }
+    .counting .counting-wrapper .circle-wrapper .circle {
+        border-radius: 50%;
+        background-color:  #78a12e;
+        width: 70px;
+        height: 70px;
+    }
+    .counting .counting-wrapper .circle-wrapper .circle h3 {
+        padding-top: 10px;
+    }
+    .counting .counting-wrapper .circle-wrapper h2 {
+        padding-left: 0;
+    }
+    .counting .counting-wrapper .circle-wrapper h2 {
+        top: 16%;
+        padding-left: 13px;
+        padding-top: 22px;
+    }
+    .strategy-body .text-block-container {
+        background: transparent;
+    }
+    .strategy-body .text-block-container p {
+        display: none;
+    }
+    .strategy-body .text-block-container{
+        padding-top:0;
+    }
+    .puzzle-container {
+        padding: 30px 25px;
+    }
+    .strategy-body .arrow-section {
+        padding: 0 25px 25px;
+    }
+    .strategy-body .text-block-container-one p {
+        text-align: center;
+    }
+    .counting {
+        padding: 0 25px 25px;
+        margin-top: 30px;
+    }
+    .counting .counting-wrapper .circle-wrapper {
+        padding: 0 10px;
+    }
+    .counting .counting-wrapper .circle-wrapper h2 {
+        padding-top: 16px;
+    }
+    .strategy-body .text-block-container{
+        padding:0;
+        margin-bottom:0;
+    }
+    .puzzle-container{
+        margin-top:0;
+    }
+    .strategy-body{
+        .arrow-section .arrow-intro {
+            background: transparent;
+        }
+        .arrow-section .arrow-intro p {
+            color: #6c6f70;
+            text-align: center;
+            max-width: 775px;
+            margin: 0 auto;
+            padding-top: 25px;
+            display: none;
+        }
+    }
+    .arrow-section .arrow-item-section{
+        margin-top:0;
+    } 
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}
+

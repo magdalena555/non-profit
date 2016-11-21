@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193.29 79.55">
+  <title>grad_hats</title>
+  <polyline points="63.8 43.54 62.05 42.92 62.05 52.52 96.4 68.48 96.77 68.65 131.08 52.52 131.08 42.79 129.34 43.41" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <line x1="137.48" y1="39.45" x2="137.48" y2="67.45" style="fill: #fff;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <path d="M585,656.6H577.6V645.24H585Z" transform="translate(-443.02 -577.55)" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <path d="M539.4,632.57l-56.06-19.75,56.06-19.75,56.06,19.75Z" transform="translate(-443.02 -577.55)" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <line x1="138.29" y1="40.25" x2="138.29" y2="67.69" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <g>
+    <polyline points="147.43 37.03 151.27 38.82 151.54 38.94 176.35 27.28 176.35 20.25 175.09 20.69" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+    <polyline points="127.71 20.79 126.45 20.34 126.45 25.82" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  </g>
+  <line x1="181.48" y1="17.45" x2="181.48" y2="38.45" style="fill: #fff;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <path d="M627.27,624H621.9V615.8h5.37Z" transform="translate(-443.02 -577.55)" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <path d="M594.28,606.64l-40.52-14.28,40.52-14.28,40.52,14.28Z" transform="translate(-443.02 -577.55)" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <line x1="181.56" y1="18.41" x2="181.56" y2="38.25" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <path d="M457.74,624h-5.37V615.8h5.37Z" transform="translate(-443.02 -577.55)" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <line x1="12.03" y1="18.41" x2="12.03" y2="38.25" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  <g>
+    <polyline points="67.12 25.82 67.12 20.25 65.85 20.69" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+    <polyline points="18.48 20.79 17.21 20.34 17.21 27.28 42.04 38.82 42.31 38.94 45.92 37.24" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+  </g>
+  <path d="M485,606.64l-40.52-14.28L485,578.08l40.52,14.28Z" transform="translate(-443.02 -577.55)" style="fill: none;stroke: #79a12c;stroke-miterlimit: 10"/>
+</svg>

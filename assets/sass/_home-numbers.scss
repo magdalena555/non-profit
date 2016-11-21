@@ -1,0 +1,116 @@
+.numbers{
+	background-color:  $blue-darker;
+	height: 360px;
+	width:100%;
+	
+    .numbers-wrapper{
+    	display: flex;
+    	justify-content: space-around; 
+    	align-items:center;
+    	width:100%;
+    	height: 100%;
+    }
+    .numbers-item{
+    	h2{
+    		color: $white;
+    		font-size: 80px;
+    		font-weight: 700;
+    		letter-spacing: 0.8px;
+    		text-align: center;
+    		margin:0;
+    	}
+    	p{
+    		color:  $blue-lightest;
+    		font-size: 20px;
+    		font-style: italic;
+    		letter-spacing: 0.2px;
+    		text-align: center;
+    		margin: 0 auto;
+    	}
+    }
+	.body-wrapper{
+		height: 100%;
+	}
+	.numbers-button-container{
+		z-index: 2;
+		position:relative;
+		bottom: 8%;
+		left:775px;
+	}
+
+	.button {
+    	padding: 20px 25px;
+	}
+}
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	.numbers .numbers-item h2 {
+	    font-size: 60px;
+	}
+
+}
+
+@media all and (max-width: 1200px) { 
+	.numbers .numbers-button-container {
+	    left:auto;
+	   
+	}
+	.button{
+		margin:0 auto;
+		display: block;
+	}
+	.numbers .numbers-button-container {
+	    right: 0;
+	}
+}
+
+@media all and (max-width: 1024px) { 
+	.numbers p{
+		max-width: initial;
+	}	
+	.numbers .numbers-wrapper {
+	    flex-direction: column;
+	   padding: 50px 25px;
+	}
+	.numbers {
+	    height: 480px;
+	}
+
+
+}
+@media all and (max-width: 940px) { 
+
+
+
+}
+
+@media all and (max-width: 768px) {
+	.numbers .numbers-button-container {
+	    bottom: 5%;
+		
+	}
+
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}
+

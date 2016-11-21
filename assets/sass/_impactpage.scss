@@ -1,0 +1,440 @@
+
+
+.impact-page{
+	background-color:#eef1f2;
+	width:100%;
+	.text-block-container{
+	    background: #fff;
+	    width: 100%;
+	    padding: 7.5% 0;
+	    margin-bottom:20px;
+
+	    h1{
+	        color:  #6c6f70;
+	        text-align: center;
+	        margin:0;
+	        font-family: 'PT Sans', arial, helvetica, sans-serif;
+	        font-size:40px;
+	    }
+	   
+	    p{
+	        color:  #6c6f70;
+	        text-align: left;
+	        margin:0;
+	        max-width: 775px;
+	        margin:0 auto;
+	        padding-top: 25px;
+	    }
+	    .button{
+	    	background-color: #ffd456;
+	    }
+	}
+	.impact-box-container{
+	     width:100%;
+	     display: flex;
+	     justify-content:center;
+	     flex-direction:row;
+	     flex-wrap:wrap;
+	     justify-content: space-between;
+	     margin-top:20px;
+	     margin-bottom:50px;
+	     .impact-box-item{
+	        background-color:  #ffffff;
+	        width:calc(24% - 10px);
+	        height: 320px;
+	       	padding: 30px 15px;
+	        border:1px solid #eef1f2;
+	        position: relative;
+	        margin:15px 0;
+	        overflow: scroll;
+	        text-align: center;
+			transition: all .5s ease;
+			.svg{
+				max-width: 155px;
+				max-height: 100px;
+			}
+	        img{
+	             margin:0 auto;
+	             display: block;
+	         }
+	        .impact-item-content{
+	        	h2{
+					color:  #78a12e;
+					font-size: 40px;
+					font-weight: 700;
+					text-align: center;
+					margin:0;
+					margin-top:25px;
+	        	}
+	        	p{
+	        	    color:  #6c6f70;
+	        	    font-size: 18px;
+	        	    font-weight: 700;
+	        	    letter-spacing: 0.18px;
+	        	    line-height: 24px;
+	        	    text-align: center;
+	        	    margin:10px 5px;
+	        	}
+	        }
+	        
+
+	     }
+	 }
+	.impact-video{
+		width:100%;
+		background-color:#fff;
+		padding:75px 100px;
+		.impact-video-heading{
+			display: flex;
+			justify-content: space-between;
+			h1{
+				margin:0;
+
+				color:  #6c6f70;
+				font-size: 40px;
+			}
+			.button-container {
+			    margin: 0;
+			    width: auto;
+			    .button{
+			    	background-color:  #00adee;
+			    	width: 201px;
+			    	height: 60px;
+			    	padding:20px;
+			    }
+			}
+		}
+		.line-below-centered::after {
+		    left: 0;
+		    margin-left:0;
+		}
+		.impact-video-container{
+			margin-top:30px;
+			display: flex;
+			justify-content: space-between;
+			.video-left-container{
+				width: 740px;
+				.video{
+					width:100%;
+					height: 420px;
+					background: #000;
+				}
+				h2{
+					color: $grey-dark;
+					font-size: 30px;
+					font-weight: 700;
+					line-height: 40px;
+					text-align: left;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+				}
+				p{
+					color:$grey-dark;
+					font-size: 15px;
+					font-weight: 400;
+					letter-spacing: 0.15px;
+					line-height: 20px;
+					text-align: left;
+				}
+				.button-container {
+				    margin: 0;
+				    width: auto;
+				    .button{
+				    	background-color:$blue-light;
+				    	width: 201px;
+				    	height: 60px;
+				    	padding:20px;
+				    }
+				}
+			}
+			.video-right-container{
+				width: 200px;
+				.small-video-item{
+					.small-video{
+						height: 120px;
+						width:100%;
+						background: black;
+						
+					}
+					h3{
+						color: $grey-dark;
+						font-size: 20px;
+						font-weight: 700;
+						line-height: 25px;
+						text-align: left;
+					}
+				}
+
+			}
+			
+		}
+	}
+}
+.impact-item-hover{
+	display:none;
+}
+.impact-page .impact-box-container .impact-box-item:hover {
+	background-color: $green;
+	.impact-item-content{
+		display: none;
+	}
+	.impact-item-hover{
+		display:block;
+		h2{
+			color: $white;
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 0.72px;
+			line-height: 20px;
+			text-align: left;
+		}
+		p{
+			color:  $white;
+			font-size: 15px;
+			font-weight: 400;
+			letter-spacing: 0.15px;
+			line-height: 20px;
+			text-align: left;
+			overflow: scroll;
+
+		}
+	}
+}
+.impact-page .text-block-container .button:hover {
+    background-color: $blue-dark;
+}
+.impact-page .impact-video .impact-video-heading .button-container .button:hover{
+	background-color: $blue-dark;
+}
+.impact-page .impact-video .impact-video-container .video-left-container .button-container .button:hover{
+	background-color: $blue-dark;
+}
+
+@media all and (max-width: 1200px) { 
+.impact-page .impact-video .impact-video-container .video-right-container {
+	    padding-left: 25px;
+	} 
+}
+// Responsive design
+@media all and (max-width: 1100px) { 
+    .impact-box-container .impact-box-item h2{
+        font-size: 17px;
+    }
+	.impact-page .impact-box-container .impact-box-item {
+	    width: 49%;
+	}
+	.impact-page .impact-video {
+	    padding: 75px 7%;
+	}
+	.impact-page .impact-box-container .impact-box-item {
+	    margin: 10px 0;
+	}
+}
+@media all and (max-width: 1025px) { 
+    .impact-page .text-block-container {
+        padding: 25px;
+    }
+    
+    .impact-page .text-block-container {  
+        padding: 25px;
+    }
+    .impact-page .text-block-container {
+        padding: 25px;
+    }
+ 	 .impact-page .button {
+ 	    margin: 0;
+ 	}  
+ 
+}
+
+@media all and (max-width: 940px) { 
+
+	.impact-page .impact-video .impact-video-container .video-right-container {
+	    width: 100%;
+	    display: flex;
+	    justify-content: space-between; 
+	    padding-top:25px;
+	}
+	.impact-page .impact-video .impact-video-container .video-right-container {
+	    padding-left: 0;
+	}
+	.impact-page .impact-video .impact-video-container {
+	    flex-direction: column;
+
+	}
+	.impact-page .impact-video .impact-video-container .video-left-container {
+	    width: 100%;
+	}
+	.middle-video{
+		padding:0 25px;
+	}
+
+}
+
+@media all and (max-width: 815px) {
+  
+}
+@media all and (max-width: 800px) {
+	
+}
+@media all and (max-width: 768px) {
+
+    .impact-page .text-block-container h1{
+        font-size:20px;
+    }
+    .impact-page .impact-box-container .impact-box-item {
+        width: 100%;
+    }
+    .impact-page .impact-video {
+        padding: 25px;
+    }
+    .impact-page .impact-video .impact-video-container .video-left-container .video {
+        height: 350px;
+    }
+    .impact-page .impact-box-container .impact-box-item .impact-item-content h2 {
+        font-size: 24px;
+    }
+    .impact-page .impact-box-container .impact-box-item {
+        height: auto;
+    }
+    .impact-page .impact-video .impact-video-heading h1 {
+        font-size: 24px;
+    }
+    .impact-page .impact-video .impact-video-container .video-left-container h2 {
+        font-size: 24px;
+    }
+    .impact-page .text-block-container {
+        margin-bottom: 0;
+    }
+    .impact-page .impact-box-container {
+    	margin-top:0;
+    }
+}
+
+@media all and (max-width: 667px) {
+   
+
+    .impact-box-container .impact-box-item{
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+	.impact-page .impact-box-container .impact-box-item {
+	    margin: 10px 0;
+	}
+	.middle-video{
+		padding:0 10px;
+	}
+	.impact-page .impact-video .impact-video-container .video-left-container .video {
+	    height: 300px;
+	}
+}
+@media all and (max-width: 600px) {
+    .impact-page {
+        padding: 25px;
+    }
+}
+@media all and (max-width: 480px) {
+    .impact-page {
+        padding: 0px;
+    }
+    .impact-page .text-block-container {
+        background: transparent;
+    }
+    .impact-box-container {
+        padding: 30px 25px;
+    }
+
+    .impact-page .text-block-container p {
+        text-align: center;
+    }
+
+    .impact-page  .text-block-container{
+        padding:0;
+        margin-bottom:0;
+    }
+    .impact-box-container{
+        margin-top:0;
+    }
+    .impact-page .impact-video .impact-video-container .video-left-container .video {
+        height: 250px;
+    }
+    .impact-page .text-block-container {
+        background: #fff;
+    }
+    .impact-page .text-block-container {
+        padding: 25px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	
+
+}
+@media all and (max-width: 1024px) { 
+
+	
+
+	
+}
+@media all and (max-width: 940px) { 
+	
+
+
+}
+
+@media all and (max-width: 768px) {
+
+
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

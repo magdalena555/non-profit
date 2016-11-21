@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 87.4">
+  <title>three_people</title>
+  <circle cx="44.82" cy="23.04" r="15.96" style="fill: none;stroke: #79a13f;stroke-miterlimit: 10"/>
+  <path d="M39.46,45.78,27.36,80.51S30,92.15,49.87,92.15,72.71,80.51,72.71,80.51L60.12,45.78" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <path d="M38.48,17.28s2.82,11.78,29.18,8.15" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <path d="M34.06,26.12s4.65.57,7.69-4.42" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linejoin: round"/>
+  <path d="M64,20.67a13,13,0,1,1,1.41,11.78" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-miterlimit: 10"/>
+  <path d="M71.54,76.9a35.23,35.23,0,0,0,4.57.28c16.16,0,18.6-9.47,18.6-9.47L84.46,39.43" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <line x1="62.42" y1="34.18" x2="57.62" y2="47.98" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <path d="M66.84,16.23s1.94,6.32,18.72,1.6" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <path d="M64.92,23.43s2.11-1.22,4.58-5.28" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linejoin: round"/>
+  <path d="M36.36,20.67A13,13,0,1,0,35,32.46" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-miterlimit: 10"/>
+  <path d="M28.49,76.95a35.74,35.74,0,0,1-4.19.23c-16.16,0-18.6-9.47-18.6-9.47L16,39.43" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <line x1="27.58" y1="34.18" x2="32.02" y2="46.94" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <path d="M33.58,16.23s-2.3,6.23-23.76,3.28" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+  <path d="M35,23.15c-1.26-.39-4.5-1.29-5.74-3.32" transform="translate(-5.21 -5.25)" style="fill: none;stroke: #79a13f;stroke-linejoin: round"/>
+  <circle cx="63.68" cy="4.57" r="4.06" style="fill: none;stroke: #79a13f;stroke-linecap: round;stroke-linejoin: round"/>
+</svg>
